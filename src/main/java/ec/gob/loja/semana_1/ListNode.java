@@ -10,18 +10,14 @@ package ec.gob.loja.semana_1;
  */
 public class ListNode {
     
-    private int data;
+    private Persona data;
     private ListNode next;
 
-    public ListNode(int data) {
-        this.data = data;
-    }
-
-    public int getData() {
+    public Persona getData() {
         return data;
     }
 
-    public void setData(int data) {
+    public void setData(Persona data) {
         this.data = data;
     }
 
@@ -32,6 +28,7 @@ public class ListNode {
     public void setNext(ListNode next) {
         this.next = next;
     }
+
     
     
 }
